@@ -1,0 +1,1267 @@
+/* ==============================  PAGE D'ACCUEIL  ============================================= */
+
+/* Corps */
+body
+{
+	font-family: Courier New,  Trebuchet MS, Arial, sans-serif;
+	font-size: 1em; 
+	line-height : 1.5;
+	width:100%;
+	padding:0;
+	margin:0; 
+    background-color: #fff, #f4f5f5;    
+	/* border:1px solid black; */
+}
+
+/* En tete */
+header
+{    
+	background-color: #BCB; 
+	display:flex; 
+	position: -webkit-sticky; /* Compatibilité Safari */ 
+    position: sticky; 
+	top: 0;  	 
+	/* border-bottom: 2px solid green;   */
+	z-index:100;
+	width:100%;
+}
+  
+/* Menu */
+nav
+{
+	width : 100%;
+	margin-left:auto;
+	display: flex; 
+	z-index: 100; 
+	font-weight:bold;
+	/* border : 1px solid black; */
+}
+
+.log, .logb
+{
+	margin:auto;
+	margin-left: 6%; 	
+	padding:0%; 
+	display:flex; 
+	/* border:1px solid black; */
+}
+.logb
+{ 
+	margin-left:17%;
+	/* align-items:center;  */
+	display:none;  
+}
+
+
+.log div,.logb div
+{
+	display:flex;
+	width:100%;
+	height:50%;
+	margin: 0%;
+	padding:0%; 
+} 
+
+.log div a, .logb div a
+{ 
+	text-decoration:none; 
+	display:flex;
+}
+.log div p, .logb div p
+{  
+	margin:auto; 
+	font-weight:bold;
+	padding-top:0%;
+	padding-bottom:0%;
+	justify-content:center;
+	letter-spacing: 10px;
+	/* border: 1px solid black; */
+}
+/* la taille des caractères empèche uire la taille bu bloc. */
+.log_a
+{
+	font-family:Calibri; 
+	font-size: 2em;  
+	/* font-weight: bold; */
+    color: teal;  
+	transform: scaleX(2) scaleY(2); 
+    display: inline-block; 
+}
+ .log_b
+{
+	font-family: Courier New;
+	font-size:3em; 
+    /* font-weight: bold; */
+    background: linear-gradient(to right, rgba(210, 105, 30), teal); /* Dégradé de couleur */
+    -webkit-background-clip: text; 
+    color: transparent; 
+	padding-left:1%;
+	transform: scaleX(2) scaleY(2); 
+    display: inline-block;  
+}
+
+.log_c
+{
+	font-family: Calibri;
+	font-size:2em;
+	color: rgba(210, 105, 30, 2);
+	transform: scaleX(2) scaleY(2); 
+	display: inline-block;
+} 
+
+#logo_image
+{      
+	width: 100%; 
+	height: 10%; /*l'image reste dans son div avec les 2*/  
+	object-fit:cover;  /* Pour couvrir tout le bloc avec l'image */ 
+} 
+
+nav > ul
+{  
+	display : flex; 
+	list-style-type: none;
+	text-decoration: none;  
+	width : 100%; /* en pixels cà fixe */  
+	margin-bottom: 0px;  
+	padding:0px; 
+	/* border:1px solid black; */
+}
+
+nav > ul > li
+{
+	float: left; /*permet de les mettre coté à cote bizarre */  
+	/* position: relative; /* relative : çà rend flexible; utile pour positionner les sous onglets e façon bien précise*/
+	width : 100%; /* le % permet d'avoir les memes longeurs de cases*/
+	list-style-type: none;  
+	/* text-decoration:none; */
+    /* padding : 0% ;  /*augmente la taille de la lalle principale nav mais bon pas grave on peut l'utiliser pour la séparer de  l'élément  du bas*/   
+	text-align: center; 
+	margin-top:auto; 
+	margin-left: 2%;  
+	display:flex;
+	/* border:1px solid black; */
+}
+
+nav > ul > li > a
+{  
+	color: purple;
+	width:100%;
+	margin:auto;
+	padding:1%; 
+	text-decoration: none;   
+	/* border:1px solid black;  */
+}
+
+.sous_menu
+{
+	display:none;    
+	width: 100%;
+	/* padding-left: 50px;  /*top right bot left ce sont left et right qui doivent rester pareils pour ne pas décaler*/   
+	text-align: justify; 
+}
+ 
+nav li:hover .sous_menu 
+{
+	display: inline-block; 
+	background-color : #CAC;
+	background-color : #f4f4f4;;
+	position: absolute; /*les blocs ne bougent pas pour que les sous menu exactement en bas les menus*/
+	top: 100%; /*bon affichage en bas des menus  */
+	left: 0px; /*empeche le décalage du sous menu*/ 
+	height:220%;
+	padding-left:30%; 
+	font-size:1.2em;
+	z-index: 100; /*pour que les sous menus s'affichent au dessus es éléments e la page*/
+}
+	
+.sous_menu > li 
+{ 
+    text-decoration: none; 
+	list-style-type: none;  
+	padding : 5px 0px 5px 10px;  /*top right bot left*/   
+	width: 100%; 
+	/* border:1px solid black; */
+}
+
+.sous_menu > li > a
+{ 
+    text-decoration: none;   
+} 
+
+.menu_accueil:hover
+{
+	background-color: #CCC;
+}
+
+.menu_projets:hover
+{
+	background-color: #AAC;
+}
+
+.menu_illustrations:hover
+{
+	background-color: #ACC;
+}
+.menu_contact:hover
+{
+	background-color: #CCC;
+}
+
+.expertise:hover
+{
+	background-color: #CAA;
+}
+
+.illustration:hover
+{
+	background-color: #ACC;  
+}
+ 
+ 
+/* Burger */
+.menu-burger {
+    display: none;
+    cursor: pointer;
+    font-size: 2em; 
+    padding: 3%;
+	/* border:1px solid black; */
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 2rem;
+    cursor: pointer; 
+	display:none;
+}
+
+/* Responsive */
+@media (max-width: 650px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        position: absolute; 
+		top:49px;
+		background-color: #f4f4f4;
+		/* border:1px solid black;  */
+    }
+	
+	.menu.show {
+        display: flex;
+    }
+
+    .menu-burger {
+        display: block;
+		margin:7% 0% 0% 10%;
+		color:teal;
+    } 
+	
+	nav
+	{
+		width:30%;
+		margin-left:0;
+	}
+	
+	nav > ul
+	{   
+		display:inline-block;
+		/* border:1px solid black; */
+	}
+	
+    .menu li {
+		text-align:left;
+        padding: 3px;
+		width:30%; 
+		padding-left: 3%;
+		/* border:1px solid black; */
+    }
+	
+	nav > ul > li > a
+	{  
+		color: purple;
+		width:100%;
+		margin:auto;
+		padding:1%;
+		text-decoration: none;   
+		font-weight: bold;
+		/* border:1px solid black;  */
+	}
+
+	.sous_menu
+	{
+		display:none;    
+		width: 100%;
+		/* padding-left: 50px;  /*top right bot left ce sont left et right qui doivent rester pareils pour ne pas décaler*/   
+		text-align: justify; 
+		text-decoration:none;
+		
+	}
+	 
+	nav li:hover .sous_menu
+	{
+		display: inline-block;  
+		position: absolute; /*les blocs ne bougent pas pour que les sous menu exactement en bas les menus*/
+		top: 0%; /*bon affichage en bas des menus  */  
+		width:68%;
+		margin:auto;
+		margin-left:32%;
+		height:170%; 
+		list-style-type:none;
+		padding-left:0;
+		padding-top:1%; 
+		background-color:rgba(210, 105, 30, .9); 
+		background-color: #f4f4f4; 
+		/* border:1px solid black;  */
+		z-index: 100; /*pour que les sous menus s'affichent au dessus es éléments e la page*/
+	}
+		
+	.sous_menu > li 
+	{  
+		padding : 2% 0% 2% 2%;  /*top right bot left*/
+		width:100%;  
+		/* border:1px solid black; */
+	}
+	
+	.sous_menu > li > a
+	{
+		color: teal;
+		font-size: 1.1em;
+		font-weight:bold;
+	}
+	.log
+	{
+		display:none;
+	}
+	.logb
+	{
+		display:flex;
+	}
+	.close
+	{
+		display:flex;
+		z-index:10;
+	}
+}
+
+
+/* haut de la page d'accueil */
+.vision
+{  
+	/* border: 1px solid green; */
+	/* border-bottom: 2px solid teal; */
+	width: 100%;  
+	background-image : url('fond.jpg'); 
+	background-repeat: no-repeat;
+	padding: 2% 0% 8% 0%; /*utiliser pour aggrandir et mettre une image*/
+	margin-bottom:4%;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.vision::before
+{ 
+	filter: brightness(0.5);
+}
+ 
+.compétences
+{   
+	/* border: 1px solid black;    */
+	display: flex;
+	width: 	55%;   		
+	margin:auto;	 
+}
+
+.savoir_faire
+{ 
+	position: relative; /*pour bien positionner le overlay*/ 
+	border: 1px solid blue;
+	border-radius: 50%;  
+	margin:1%;  
+	width:100%; 
+	overflow:hidden; 
+	/* border:1px solid blue; */
+}
+ 
+.savoir_faire img 
+{
+	width: 100%;
+	height : 100%;
+	object-fit:cover;  /* Pour couvrir tout le bloc avec l'image */
+}
+
+.savoir_faire a
+{       
+	width : 100%;    
+	text-decoration: none;  
+	border: 1px solid black; /* bizarre ca rend re.rond les images du savoir faire*/
+}
+
+.savoir_faire .overlay 
+{
+    position: absolute; 
+    top: 0;   
+    width: 100%;
+    height: 100%; 
+    background-color: rgba(0, 150, 0, .7); /* Couleur de superposition avec transparence */
+    display: flex;
+    justify-content: center; /* Centrer le texte horizontalement */
+    align-items: center; /* Centrer le texte verticalement */
+    opacity: 0; /* Masquer le texte par défaut */ / 
+} 
+ 
+.savoir_faire:hover .overlay 
+{
+    opacity: 1; /* Afficher le texte au survol */ 
+}
+
+.savoir_faire .texte 
+{
+    color: white; 
+    text-align: center; 
+	font-size:.9em;
+	overflow: hidden;
+	font-family:Consolas;
+}
+ 
+.vision h1
+{ 
+    width: 60%; /*on peut donner un petit width pour plusieurs lignes*/ 
+	font-family: Consolas; 
+	margin-left: auto;  
+	margin-right: auto; /*ces deux margin permettent de cenrer un bloc sans annuler les margin top et bottom*/ 
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: bold;  
+	/* border:1px solid blue; */
+}
+
+
+/* section principal */
+.section_principal
+{ 
+	width:70%;
+	margin: auto; 
+	margin-bottom: 1%; 
+	font-family: Consolas;
+}
+
+.principal p
+{      
+	text-align:justify;
+	justify-content:center;
+	/* border: 1px solid black;  */
+}
+
+.principal h1
+{       
+	color: rgba(210, 105, 30, 2); 
+	text-align: center;
+	font-size: 1.3em; 
+	font-weight: bold;
+	/* font-family: Cambria;  */
+}
+
+span
+{
+	/* border:1px solid black; */
+	font-size: 1.5em; 
+}
+/* Nos outils peut etre les faire défilés*/
+
+.titre_outils
+{ 
+	width:100%;
+	padding-bottom: 1%;
+	margin: auto;
+	margin-top:3%;
+	text-align:center; 
+	color: green;
+}
+
+/* Styles de base */ 
+.grid-container
+{ 
+	width: 100%; 
+	margin:auto;  
+	/* border: 1px solid blue;  */
+	margin-bottom:3%;
+}
+		
+/* Style pour chaque logo */
+.logo-item
+{ 
+    display: flex; 
+	width:70%;
+	margin:auto;
+    align-items: center;    
+    transition: transform 0.3s; 
+	/* border:1px solid black; */
+}
+
+/* Effet au survol */
+.logo-item div:hover 
+{
+    transform: scale(1.1);
+}
+
+.logo-item > div 
+{
+	width: 100%;
+	margin:2%; 
+	/* border:1px solid blue;	 */
+}
+ 
+.logo-item div img
+{
+	width: 100%;   /* Limite la largeur de l'image à 70% du cercle */  
+	object-fit: cover; /* Donne un effet arrondi aux images, s’il y a des coins */
+	/* border:1px solid black; */
+}
+
+
+/* ----------------------------- Pied de page ---------------------------------*/
+
+footer 
+{
+    background-color: #122; 
+    color: black; 
+	width:100%;
+	/* margin:0; */
+    text-align: justify; 
+	/* border:1px solid black; */
+	/* overflow:hidden; */
+}
+
+.container 
+{
+    display:flex;
+	/* border:1px solid blue; */
+}
+ 
+.footer-section
+{  
+	/* border : 1px solid blue;  */
+    padding: 0;   
+	margin:0;
+	width:100%;
+	/* text-align:center; */
+}
+
+.footer-section h2 
+{
+	/* border:1px solid red;  */
+	width:100%;
+	text-align:center;
+	color:orange;
+	/* padding:0; */
+	margin-bottom:0%;
+}
+
+.footer-section ul 
+{
+    /* list-style-type: none;   */
+	/* border:1px solid blue; */
+	margin-left:5%;
+}
+
+.icons
+{	
+	display:flex;  
+	justify-content:center;
+	gap:5px;
+}
+
+.icons a img 
+{
+	width: 30px; 
+	height: 30px;  
+}
+
+.footer-section ul li 
+{
+    /* margin: 2% 0;  */
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none; 
+}
+
+.social-media
+{
+    /* border:2px solid black;   */
+	width:40%;
+}
+
+.social-media h2
+{
+	/* border:1px solid black; */
+    margin-bottom:8%;
+}
+
+
+.social-media a 
+{
+    color: white;   
+    text-decoration: none;
+    display: inline-block;  
+	/* border:1px solid blue; */
+}
+
+.liens_utiles
+{
+	display:flex; 
+	margin:auto;
+	width:100%;
+	/* border:1px solid blue;  */
+}
+
+.liens_utiles ul
+{
+	/* width:100%;    */
+	text-align:left;  
+	/* border:1px solid black;  */
+} 
+
+.footer-bottom
+{
+    text-align: center; 
+    padding: 2% 0% 2% 0%;
+    border-top: 2px solid #565;
+	/* background-color: #111; */
+	font-weight:bold;
+	font-size:1.1em;
+	/* color:red; */
+	/* border:1px solid black; */
+}
+
+/* -------------------------------------------------------------------------------- */
+
+/* MISE EN FORME DE LA PAGE CFD */
+
+.logo_cfd_page
+{
+	border: 1px solid black;  
+}
+
+.logo_cfd_page img  
+{
+	/* width: 100%;  */
+}
+
+.sec_cfd
+{
+	/* border: 1px solid blue; */
+	padding: 1% 5% 0% 5%; /*top right bottom left*/  
+	text-align: justify;
+	/* font-family: Verdana;  */
+}
+.sec_cfd h1
+{
+	color: green;
+	text-align: center;
+}
+
+.cfd_approches
+{
+	border:1px solid red;
+	margin-top:1%;
+	display: flex;
+
+}
+
+.cfd_approches > div
+{
+	border: 1px solid blue; 
+	padding: 0% 2% 1% 2%; /*top right bottom left*/  
+	width: 50%;
+	margin: .5%;
+}
+
+.cfd_approches h1
+{
+	color: purple;  
+	font-size: 1em;
+}
+
+.approche_img img
+{
+	border:1px dashed red;
+	width: 100%;
+}
+
+.learn_cfd
+{
+	border: 1px solid blue;
+	padding: 1% 5% 5% 5%; /*top right bottom left*/  
+	text-align: justify;
+	width: 60%;
+	margin:auto;
+	
+}
+
+.CFD
+{
+	/* border:1px solid blue;  */
+	padding: 1% 5% 5% 5%;
+}
+
+.CFD_IMG
+{
+	/* border:1px solid blue; */
+	width:95%; 
+	margin-left:auto;   /* j'ai pris left au lieu de margin pour ajuster au centre  */
+	
+} 
+.CFD_IMG img
+{
+	border:1px solid red; 
+	width:30%;    
+}
+
+/* ******************************Projets**************************** */
+
+
+#projets_fluides, #projets_solides, #projets_ifs
+{
+	margin:3%;
+	/* display:flex; */
+	background-color: #ffd;
+	padding : 2% 0% 3% 0%;
+	/* border-bottom: 2px dashed blue;  */
+}
+
+#projets_fluides h3, #projets_solides h3, #projets_ifs h3
+{ 
+	margin: auto; 
+	text-align:center;
+	color: chocolate;
+	margin-bottom:2%;
+}
+
+#projets_fluides h4, #projets_solides h4, #projets_ifs h4
+{  
+	text-align:center;
+	color: teal;
+	width:60%;
+	margin:auto;
+	padding-top:2%;
+	
+	/* border:1px solid blue; */
+}
+
+#projets_fluides > div, #projets_solides > div, #projets_ifs > div
+{
+	margin-bottom:2%;
+	/* border: 1px solid black; */
+}
+
+#projets_fluides > div > div, #projets_solides > div > div, #projets_ifs > div > div
+{
+	/* border:1px solid blue;  */
+	width: 50%;
+	margin: auto; 
+	margin-top:	1%;
+	display:flex; 
+}
+
+#projets_fluides > div > div > div, #projets_solides > div > div > div, #projets_ifs > div > div > div
+{
+	width:100%;
+	padding:1%;
+}
+ 
+#projets_fluides img, #projets_solides img, #projets_ifs img
+{ 
+	width: 100%;
+	height:100%;
+	justify-content:center; 
+	align-items: center;	
+	border:2px solid purple;
+}
+
+/* ----------------------------- PAGE_CONTACT---------------------------------------------- */
+
+.contact_container
+{ 
+	width:80%;
+    margin: auto;
+	margin-top:5%;
+    background: #fff; 
+	/* border:1px solid black; */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; 
+}
+
+
+.contact_container h2 
+{ 
+    color: #33b;
+	width: 100%;
+	margin:auto;
+	text-align: center;
+	background-color:#aaa;
+	padding:2% 0% 2% 0%;
+	font-size:2.3em;
+	border: 1px solid #aaa;
+	border-radius: 5px;
+		
+}
+
+.contact_container form
+{
+	width:70%;
+	margin:auto;
+	/* border:1px solid blue; */
+}
+
+
+.contact_container label
+{
+    display: inline-block;
+    margin: 15px 0 5px;
+    color: #333; 
+}
+
+.contact_container input, select, textarea { 
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #bab;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+.contact_container textarea
+{
+    height: 150px;
+    resize: vertical;
+}
+
+.contact_container button
+{
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.contact_container button:hover 
+{
+   background-color: #45a049;
+}
+
+
+/* Boutton contact */
+
+.lien_button
+{
+	/* border:1px solid black;	 */
+	width:50%; 
+	margin:auto;
+	margin-top: 5%;
+	/* background-color:  #45a049; */
+}
+
+button
+{ 
+	width:100%;
+	padding:3%;
+	background-color:#3498db;
+	font-size:1.3em; 
+	font-family:Consolas;
+	border-radius: 10px;
+	margin-bottom: 10%;
+}
+
+button:hover
+{
+	transform: scale(1.1);   
+}
+
+/* =====================================_Page_apprendre_==================================*/
+
+.courses_block
+{
+	display:flex; 
+	/* border:1px solid blue; */
+}
+
+.course_titre
+{
+	width: 50%;
+	margin: auto;
+	color:orange;
+	text-align:center;
+	margin-top:5%;
+	/* border:1px solid black; */
+}
+.courses-container
+{
+    display: flex;
+    justify-content: center;
+	width:75%;
+	margin:auto;
+    flex-wrap: wrap;
+	margin-top:5%;
+	margin-bottom:10%;
+}
+
+.course-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 3%;
+    width: 100%;
+    transition: transform 0.3s;
+	border: 1px solid #aaa; 
+	align-content:center;
+}
+
+.course-card:hover {
+    transform: scale(1.1); 
+}
+
+.course-card img { 
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+}
+
+.course-card h2 {
+    padding: 2%;
+	text-align:center;
+	/* border:1px solid blue;   */
+}
+
+.course-card a {
+    text-decoration: none;
+    color: inherit;
+}
+ 
+/*=====================================  Fin page apprendre  ================================ */
+
+
+
+/* Projets en diaporama*/ 
+
+/* Slideshow container */
+.slideshow-container h2 
+{
+	width:100%;
+	text-align:center;
+	margin-bottom:0%;
+	color:teal; 
+	/* margin: 0%; */
+	/* border:1px solid blue; */
+}
+ 
+.slideshow-container 
+{
+    /* position: relative; */
+    width: 100%;  
+	margin: auto;
+	padding-top:1%; 
+	padding-bottom:5%;  
+    background-color: rgba(250, 245, 255, 01); 
+	/* border:1px solid blue; */
+}
+
+/* Slide styling */
+.slide
+{
+	display:none;
+	/* position:relative;  */
+	width:60%;  
+	margin-left:auto;  
+	margin-right:auto;  
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+	/* border:1px solid green; */
+}
+
+.slide > a
+{
+	display:flex;
+	width:100%;
+	/* border:1px solid black; */
+}
+ 
+
+.slide> a > div
+{
+	width:100%; 
+	margin:1%;	
+	border:2px solid purple;
+}
+
+.slide img
+{
+    width: 100%; 
+	height:100%; 
+	/* border:1px solid black; */
+}
+
+/* Show the current slide */
+.slide.active {
+	display:flex;
+    opacity: 1;
+    animation: slideIn 1s ease forwards;  
+}
+ 
+@keyframes slideIn {
+    from { transform: translateX(5%); }
+    to { transform: translateX(0); }
+}
+
+
+/* Description overlay styling */
+.description {
+    position: absolute;  
+    color: white;  
+    text-align: center; 
+    top:0;
+    width: 100%;  
+    height: 100%;  
+	margin:0%;
+    background-color: rgba(0, 2, 0, 0.3); /* Couleur de superposition avec transparence */
+    display: flex;
+    justify-content: center; /* Centrer le texte horizontalement */
+    align-items: center; /* Centrer le texte verticalement */
+    /* text-align:center; */
+	opacity: 0; /* Masquer le texte par défaut */  
+    transition: opacity 0.3s ease;  
+}
+
+/* Show description on image hover */
+.slide:hover .description {
+    opacity: 1;
+}
+
+/* Navigation buttons */
+.prev, .next 
+{
+    cursor: pointer;
+    position: relative; 
+    /* color: blue; */
+    font-weight: bold;
+    font-size: 100%;  
+    user-select: none;
+	padding:2%;
+    z-index: 10;
+	width:auto;  
+}
+ 
+.bouttons_def
+{
+	position:relative;
+	/* border:1px solid black; */
+	width:10%;
+	margin:auto; 
+	display:flex ;
+}
+ 
+.next {
+    margin-left: 65%;
+	/* border:1px solid black; */
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*=====================================  Expertise : Page Mécanique des fluides  ================================ */
+
+.section_expertise
+{
+	width: 70%;
+	margin: auto;
+	text-align:justify;
+	/* border:1px solid blue; */
+}
+
+.section_expertise h1
+{
+	text-align: center;
+	color: teal;
+}
+
+.section_expertise h2
+{
+	text-align: center;
+	color: orange;
+}
+
+ 
+.expertise_bottom
+{
+    display: flex;
+    justify-content: center; 
+	margin: auto; 
+	margin-bottom:5%;
+	/* border: 1px solid blue; */
+}
+
+.side 
+{ 
+    border-radius: 3%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+	width:100%; 
+	padding:0;
+	margin:2%;
+    transition: transform 0.3s;
+	align-items: center; 
+	background-color: #e0f7fa;
+	/* border: 1px solid #aaa; */
+}
+.side a
+{
+	width:100%;
+	height:100%;
+	padding-top:3%;
+	padding-bottom:3%; 
+	align-items: center; 
+	justify-content: center; 
+	border:1px solid #aaa;
+	/* background-color: #e0f7fa ; */
+}
+
+.side:hover 
+{
+    transform: scale(1.1); 
+}
+
+.side img { 
+    width: 100%;
+    height: 100%;
+	overflow:hidden;
+	border:100px;
+}
+
+.side h3 { 
+	text-align:center;
+	margin:0%;
+	padding:2%;
+	/* border:1px solid blue;   */
+}
+
+.side a {
+    text-decoration: none;
+    color: inherit; 
+	display:flex;
+}
+
+.side a div{
+	margin:1%;
+	/* border:1px solid black; */
+}
+
+
+/* Style de la boîte de texte */
+
+ .fleche {
+            /* display: flex; */
+            /* align-items: center; /* Aligne verticalement le rectangle et le triangle */ */
+        }
+ 
+        /* Pointe de la flèche (triangle) */
+        .triangle {
+            width: 0;
+            height: 0;
+            border-top: 10px solid transparent; /* Triangle transparent sur le haut */
+            border-bottom: 10px solid transparent; /* Triangle transparent sur le bas */
+            border-left: 20px solid orange ; /*#00796b; /* Triangle vert pour la flèche */
+       }
+
+
+
+/*========================================Fin page Mécanique des fluides=================================== */
+
+/*=========================================================================== */
+
+.modelisation
+{
+	width:70%;
+	margin:auto;
+	text-align:justify;
+	/* border:1px solid black; */
+}
+
+.modelisation h3
+{ 
+	margin:auto;
+	text-align:center;
+	color:  #3498db;
+	/* border:1px solid black; */
+}
+
+.modelisation_type
+{
+	display:flex;
+}
+
+
+
+.modelisation_type h3
+{
+	color:purple;
+}
+.modelisation_type > div
+{
+	width:100%;
+	margin:.5%;
+	padding:2%; 
+	background-color: #e0f7fa;
+}
+
+.modeles
+{
+	display:flex;
+}
+
+.modeles img
+{
+	width:100%;
+	margin:auto;
+}
+
+ 
+/* #e0f7fa  #3498db*/
+
+
+
+/*--------------------------------Page simulation numérique----------------------------------------*/
+
+.simulation_numerique, .analyse_optimisation, .modelisation
+{
+	width:70%;
+	margin:auto; 
+	text-align:justify;
+	/* border:1px solid black; */
+}
+
+.simulation_numerique h1, .analyse_optimisation h1, .modelisation h1
+{
+	color:orange;
+	text-align:center;
+}
+
+.simulation_numerique ul 
+{
+	font-weight:bold;
+	background-color: teal; 
+	/* color: teal; */
+}
+
+.analyse_optimisation p
+{
+	background-color: teal;
+}
