@@ -119,6 +119,7 @@ nav > ul > li
 	margin-top:auto; 
 	margin-left: 2%;  
 	display:flex; 
+	border:1px solid blue;
 }
 
 nav > ul > li > a
@@ -129,17 +130,16 @@ nav > ul > li > a
 	padding:1%; 
 	text-decoration: none;    
 }
-
 .sous_menu
 {
 	display:none;    
 	width: 100%;   
 	text-align: justify; 
 }
- 
 nav li:hover .sous_menu 
 {
-	display: inline-block;   
+	display: inline-block;  
+	background-color:#f4f4f4;
 	position: absolute;  
 	top: 100%;  
 	left: 0px;
@@ -147,14 +147,13 @@ nav li:hover .sous_menu
 	padding-left:30%; 
 	font-size:1.2em;
 	z-index: 100; 
-}
-	
+}	
 .sous_menu > li 
 { 
     text-decoration: none; 
-	list-style-type: none;  
-	padding : 5px 0px 5px 10px;  
-	width: 100%;  
+    list-style-type: none;  
+    padding : 5px 0px 5px 10px;  
+    width: 100%;  
 }
 
 .sous_menu > li > a
