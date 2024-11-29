@@ -118,22 +118,21 @@
 					</div>		 
 				</div>
 	 
-	  	
-<footer>
+ <footer>
     <div class="container">   
         <div class="footer-section links">
             <h2>Liens utiles</h2> 
 			<div class = "liens_utiles">
 				<ul>
 					<li><a href="index.html">Accueil</a></li> 
-					<li><a href="modelisation.html">Modélisation</a></li>
+					<li><a href="MODELISATION.html">Modélisation</a></li>
 					<li><a href="SIM_NUM.html">Simulation numérique</a></li>
 					<li><a href="ANALYSE_OPT.html">Analyse et optimisation</a></li>
 					<li><a href="APPRENDRE.html">Apprendre </a></li>
 				</ul>
 				
 				<ul> 
-					<li><a href="Projets.html">Illustrations </a></li> 				
+					<li><a href="projets.html">Illustrations </a></li> 				
 					<li><a href="MECA_FLUX.html">Mécanique des fluides</a></li>
 					<li><a href="MECA_SOLIDES.html">Mécanique des solides</a></li>
 					<li><a href="IFS.html">Interaction fluides/solides</a></li>
@@ -145,10 +144,10 @@
 					<h2>Suivez-nous</h2>  
 				<div class = "icons"> 
 					<a href="https://www.linkedin.com/company/lm-n/?midToken=AQF8hE1q0CDoCw" target = "blank">
-						<img src="linkedin.PNG" alt = "linkedin">
+						<img src="linkedin.png" alt = "linkedin">
 					</a>
 					<a href="http://www.youtube.com/@LaM%C3%A9caniqueNum%C3%A9rique" target = "blank">
-						<img src="youtube.PNG" alt = "youtube">
+						<img src="youtube.png" alt = "youtube">
 					</a>  			 
 				</div>		
 		</div> 
@@ -159,73 +158,11 @@
     </div>
 	
 </footer>
- 		
-
-
 
 
 
 		
 	<script src="Javascript.js"></script> <!--La partie du javascript ne marche pas-->
 </body>
-	
-	
-	<!-- 
 	 
-	Forme site : des liens directs vers les sous menus doivent apparaitre partout sur le site, c'est les memes qui sont présentés (si le visiteur ne va pas en bas pour voir les projets par exemple... et s'il regarde que le site et pas les menus il peut ne pas voir des trucs.
-	
-	1. Acceuil : 
-		présentation + R&D en mécanique numérique. 
-		Qu'est-ce que tu proposes comme services ? spécialisé dans la modélisation et la simulation numérique de problèmes de mécanique F, S IFS. 
-		Des savoirs-faires et les domaines d'application de tes compétences:
-		fluides, solides, IFS
-		Preuves de compétences : mini-projets
- 
- 
-	La moddélisation c'est la réduction du maillage; DNS sur faible discrétisation =? LES sur la meme discrétisation en termes de calcul ?? 
-	termes de transport ne font que redistribuer l'énergie dans l'écoulement, leur intégrale est nulle, les termes de production et dissipation
-	eux produisent de l'énergie.
-	Dissipation toujours positive. impossible d'avoir une anti dissipation.
-	Production c'est différent de l'anti dissipation peut etre + ou - .
-		modéles linéaires : information transmise instantannément  ce qui est faux. modèles d'advection diffusion.
-		Le problème c'est modéliser nu_t ; si tu tu le fais tu rajoutes de la viscosité physique ; cçà ne devrait pas etre le cas. 
-		L'approche de Bousinesq est fausse comme j'ai dit il faut un équilibre on ne peut pas avoir un écoulement pseudo laminaire.Il faut rajouter 
-		un mois à la modélisation de Reynolds : IBRAHIM CISSE. 
-	URANS : quand présen,ce de différentes d'échelles temporelles.
-
-	La paroi: les gradients sont la bas la fameuse couche  limite. il faut bien traiter la paroi elle gouverne la turnulence si elle existe
-	mais dans les libres y'a de la turbulence libre aussi. 
-	   - reduction des structures à son approche.
-	   - meme loin la taille des structures turbulentes dépend de leur distance à la paroi.
-	   - donc attention à la paroi la tuburlence au dessus dépend d'elle bien sur.
-	   
-	   Modèle universel: valable pour toutes les classes d'écoulements, de configurations normalement mais à l'approche de la paroi c'est bizarre.
-	   La paroi est bizarre; il faut prendre garde à cette paroi. A son approche nu détruit tout, l'universalité (hypothèse = prod = dissip)est faudsse pour la paroi il faut trouver la solution.
-		
-	=> modèles low Re, valable jusqu'en en paroi. Comment ils sont construits alors. y+
-	HIGH Re +  wall functions à la paroi. grand maillage, ne meme pas arriver avec dans la zone tampon (calcul y+ : on prend pas 5<y+<30 prendre 40 comme çà).
-	
-	  On prend souvent une vitesse au dessus de la paroi, et non la nulle à la paroi pour résoudre le détachement.
-	  
-	  LES
-	  A la paroi, on a pas que des structures petites; mais des cohérentes fortement anisotropes qui demandent un raffinement donc elles sont petites alors.
-	  le terme 'petit' est  bizarre déja si on parle de LES : il faut aussi résoudre la paroi mais la LES en paroi concerne les structures 
-	  de graindes tailles par rapport à celles de la paroi. les cohérentes fortement anisotorpes.
-	  
-	  Il faut filtrer et non modifier.
-	  filtre : opérateur mathématique qui si déplace sur le signal et le filtre. on prend généralement dx = sx filtre et maillage sinon faudra toujours prendre 
-	  une taille de maillage plus petite que celle du filtre.
-	   
-
-	Modèles algébriques: ramène tout à des considérations locales.
-	
-				LES :
-	Reduction du temps de calcul vs DNS.
-	Modèles ne sont appliqués qu'aux petites échelles.
-	Permet la simulaiton 3D des structures cohérentes.
-	Pb: le filtre intergit avec le maillage, ...
-	-->
-	
-	
-	
 </html>
