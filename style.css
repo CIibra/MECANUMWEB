@@ -118,8 +118,7 @@ nav > ul > li
 	text-align: center; 
 	margin-top:auto; 
 	margin-left: 2%;  
-	display:flex; 
-	border:1px solid blue;
+	display:flex;  
 }
 
 nav > ul > li > a
@@ -177,33 +176,29 @@ nav li:hover .sous_menu
 }
 .menu_contact:hover
 {
-	background-color: #CCC;
+      background-color: #CCC;
 }
-
 .expertise:hover
 {
-	background-color: #CAA;
+      background-color: #CAA;
 }
-
 .illustration:hover
 {
 	background-color: #ACC;  
-}
-  
+}  
 .menu-burger {
     display: none;
     cursor: pointer;
-    font-size: 2em; 
-    padding: 3%; 
+    font-size: 2 em; 
+    padding: 3 %; 
 }
-
 .close {
     position: absolute;
-    top: 10px;
-    right: 20px;
-    font-size: 2rem;
+    top: 10 px;
+    right: 20 px;
+    font-size: 2 rem;
     cursor: pointer; 
-	display:none;
+    display:none;
 } 
 @media (max-width: 650px) {
     .menu {
@@ -220,7 +215,8 @@ nav li:hover .sous_menu
       display: flex;
 }
 
-.menu-burger {
+.menu-burger
+{
      display: block;
      margin:7% 0% 0% 10%;
      color:teal;
@@ -252,21 +248,19 @@ nav > ul > li > a
    text-decoration: none;   
    font-weight: bold;
 }
-
 .sous_menu
 {
       display:none;    
       width: 100%;
       text-align: justify; 
       text-decoration:none;
-		
 }
  
 nav li:hover .sous_menu
 {
      display: inline-block;  
-     position: absolute; /*les blocs ne bougent pas pour que les sous menu exactement en bas les menus*/
-     top: 0%; /*bon affichage en bas des menus  */  
+     position: absolute;  
+     top: 0%;  
      width:68%;
      margin:auto;
      margin-left:32%;
@@ -276,12 +270,12 @@ nav li:hover .sous_menu
      padding-top:1%; 
      background-color:rgba(210, 105, 30, .9); 
      background-color: #f4f4f4; 
-     z-index: 100; /*pour que les sous menus s'affichent au dessus es éléments e la page*/
+     z-index: 100;  
 }
 		
 .sous_menu > li 
 {  
-    padding : 2% 0% 2% 2%;  /*top right bot left*/
+    padding : 2% 0% 2% 2%;   
     width:100%;  
 }
 	
