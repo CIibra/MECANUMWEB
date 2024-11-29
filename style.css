@@ -19,7 +19,7 @@ header
 	background-color: #BCB; 
 	display:flex; 
 	position: -webkit-sticky; /* Compatibilité Safari */ 
-    position: sticky; 
+   	position: sticky; 
 	top: 0;  	 
 	/* border-bottom: 2px solid green;   */
 	z-index:100;
@@ -1244,8 +1244,7 @@ button:hover
 {
 	width:70%;
 	margin:auto; 
-	text-align:justify;
-	/* border:1px solid black; */
+	text-align:justify; 
 }
 
 .simulation_numerique h1, .analyse_optimisation h1, .modelisation h1
