@@ -1,12 +1,12 @@
  body
 {
 	font-family: Courier New,  Trebuchet MS, Arial, sans-serif;
-	font-size: 1em; 
+	font-size: 1.2 em; 
 	line-height : 1.5;
 	width:100%;
 	padding:0;
 	margin:0; 
-    background-color: #fff, #f4f5f5;   
+   	background-color: #fff, #f4f5f5;   
 }
  
 header
@@ -22,6 +22,7 @@ header
    
 nav
 { 
+	width:100%;
 	margin-left:auto;
 	display: flex; 
 	z-index: 100; 
