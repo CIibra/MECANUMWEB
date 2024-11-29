@@ -469,8 +469,7 @@ span
 {
 	/* border:1px solid black; */
 	font-size: 1.5em; 
-}
-/* Nos outils peut etre les faire défilés*/
+} 
 
 .titre_outils
 { 
@@ -486,8 +485,7 @@ span
 .grid-container
 { 
 	width: 100%; 
-	margin:auto;  
-	/* border: 1px solid blue;  */
+	margin:auto;   
 	margin-bottom:3%;
 }
 		
@@ -511,8 +509,7 @@ span
 .logo-item > div 
 {
 	width: 100%;
-	margin:2%; 
-	/* border:1px solid blue;	 */
+	margin:2%;  
 }
  
 .logo-item div img
@@ -890,8 +887,7 @@ button:hover
 
 .courses_block
 {
-	display:flex; 
-	/* border:1px solid blue; */
+	display:flex;  
 }
 
 .course_titre
@@ -900,8 +896,7 @@ button:hover
 	margin: auto;
 	color:orange;
 	text-align:center;
-	margin-top:5%;
-	/* border:1px solid black; */
+	margin-top:5%; 
 }
 .courses-container
 {
@@ -938,8 +933,7 @@ button:hover
 
 .course-card h2 {
     padding: 2%;
-	text-align:center;
-	/* border:1px solid blue;   */
+	text-align:center; 
 }
 
 .course-card a {
@@ -959,20 +953,16 @@ button:hover
 	width:100%;
 	text-align:center;
 	margin-bottom:0%;
-	color:teal; 
-	/* margin: 0%; */
-	/* border:1px solid blue; */
+	color:teal;  
 }
  
 .slideshow-container 
-{
-    /* position: relative; */
+{ 
     width: 100%;  
 	margin: auto;
 	padding-top:1%; 
 	padding-bottom:5%;  
-    background-color: rgba(250, 245, 255, 01); 
-	/* border:1px solid blue; */
+    background-color: rgba(250, 245, 255, 01);n 
 }
 
 /* Slide styling */
