@@ -16,7 +16,7 @@ header
 	position: -webkit-sticky;  
    	position: sticky; 
 	top: 0;  
-	padding:2%;
+	padding: 2% 2% 0% 2%;
 	z-index:100;
 	width:100%;
 }
@@ -203,7 +203,7 @@ nav li:hover .sous_menu
     cursor: pointer; 
     display:none;
 } 
-@media (max-width: 650px) {
+@media (max-width: 750px) {
 .menu {
         display: none;
         flex-direction: column;
