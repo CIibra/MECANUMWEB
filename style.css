@@ -1,4 +1,4 @@
- body
+body
 {
 	font-family: Courier New,  Trebuchet MS, Arial, sans-serif;
 	font-size: 1 em; 
@@ -386,7 +386,7 @@ nav li:hover .sous_menu
     text-align: center;
     font-size: 1.5 em;
     font-weight: bold;  
-    color: purple;
+    color: blue;
 }
  
 .section_principal
