@@ -143,10 +143,10 @@ nav li:hover .sous_menu
 	position: absolute;  
 	top: 100%;  
 	left: 0px;
-	height:200%;
+	height:170%;
 	padding-left:40%;
 	padding-top: 3%;
-	font-size:1.2em;
+	font-size:1.4em;
 	z-index: 100; 
 }	
 .sous_menu > li 
