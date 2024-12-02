@@ -8,7 +8,6 @@
 	margin:0; 
    	background-color: #fff, #f4f5f5;   
 }
- 
 header
 {    
 	background-color: #BCB; 
@@ -16,11 +15,10 @@ header
 	position: -webkit-sticky;  
    	position: sticky; 
 	top: 0;  
-	padding: 2% 0% 0% 0%;
+	/*padding: 2% 0% 0% 0%;*/
 	z-index:100;
 	width:100%;
-}
-   
+} 
 nav
 { 
 	width:100%;
@@ -29,7 +27,6 @@ nav
 	z-index: 100; 
 	font-weight:bold; 
 }
-
 .log, .logb
 {
 	margin:auto;
@@ -69,7 +66,7 @@ nav
 .log_a
 {
 	font-family:Calibri; 
-	font-size: 2em;   
+	font-size: 3em;   
   	color: teal;  
 	transform: scaleX(2) scaleY(2); 
    	display: inline-block; 
@@ -77,11 +74,11 @@ nav
  .log_b
 {
 	font-family: Courier New;
-	font-size:3em;  
+	font-size:5em;  
     	background: linear-gradient(to right, rgba(210, 105, 30), teal); 
     	-webkit-background-clip: text; 
     	color: transparent; 
-	padding-left:1%;
+	padding-left: 1%;
 	transform: scaleX(2) scaleY(2); 
     	display: inline-block;  
 }
@@ -89,7 +86,7 @@ nav
 .log_c
 {
 	font-family: Calibri;
-	font-size:2em;
+	font-size:3em;
 	color: rgba(210, 105, 30, 2);
 	transform: scaleX(2) scaleY(2); 
 	display: inline-block;
@@ -122,15 +119,15 @@ nav > ul > li
 	margin-left: 2%;  
 	display:flex;  
 }
-
 nav > ul > li > a
 {  
 	color: purple;
-	width:100%;
-	margin:auto;
-	padding:2%; 
+	width: 100%;
+	margin: auto;
+	padding: 4% 1% 4M 1%;
+	font-size:1.2em;
 	text-decoration: none;
-	font-weight:bold;
+	font-weight: bold;
 }
 .sous_menu
 {
@@ -167,29 +164,29 @@ nav li:hover .sous_menu
 
 .menu_accueil:hover
 {
-	background-color: #CCC;
+    background-color: #CCC;
 }
 
 .menu_projets:hover
 {
-	background-color: #AAC;
+    background-color: #AAC;
 }
 
 .menu_illustrations:hover
 {
-	background-color: #ACC;
+    background-color: #ACC;
 }
 .menu_contact:hover
 {
-      background-color: #CCC;
+    background-color: #CCC;
 }
 .expertise:hover
 {
-      background-color: #CAA;
+    background-color: #CAA;
 }
 .illustration:hover
 {
-	background-color: #ACC;  
+    background-color: #ACC;  
 }  
 .menu-burger {
     display: none;
@@ -205,7 +202,7 @@ nav li:hover .sous_menu
     cursor: pointer; 
     display:none;
 } 
-@media (max-width: 750px) {
+@media (max-width: 768 px) {
 .menu {
         display: none;
         flex-direction: column;
