@@ -146,8 +146,9 @@ nav li:hover .sous_menu
 	position: absolute;  
 	top: 100%;  
 	left: 0px;
-	height:220%;
-	padding-left:30%; 
+	height:200%;
+	padding-left:40%;
+	padding-top: 3%;
 	font-size:1.2em;
 	z-index: 100; 
 }	
@@ -350,8 +351,7 @@ nav li:hover .sous_menu
 .savoir_faire a
 {       
 	width : 100%;    
-	text-decoration: none;  
-	border: 1px solid black;  
+	text-decoration: none;   
 }
 
 .savoir_faire .overlay 
@@ -543,71 +543,8 @@ footer
     border-top: 2px solid #565; 
     font-weight:bold;
     font-size:1.1 em; 
-}  
-.logo_cfd_page
-{
-	border: 1px solid black;  
-} 
-.sec_cfd
-{ 
-	padding: 1% 5% 0% 5%;  
-	text-align: justify; 
-}
-.sec_cfd h1
-{
-	color: green;
-	text-align: center;
-}
+}   
 
-.cfd_approches
-{
-	border:1px solid red;
-	margin-top:1%;
-	display: flex;
-}
-
-.cfd_approches > div
-{
-	border: 1px solid blue; 
-	padding: 0% 2% 1% 2%;   
-	width: 50%;
-	margin: .5%;
-}
-.cfd_approches h1
-{
-      color: purple;  
-      font-size: 1em;
-}
-.approche_img img
-{
-	border:1px dashed red;
-	width: 100%;
-}
-.learn_cfd
-{
-	border: 1px solid blue;
-	padding: 1% 5% 5% 5%;   
-	text-align: justify;
-	width: 60%;
-	margin:auto;	
-}
-
-.CFD
-{ 
-	padding: 1% 5% 5% 5%;
-}
-
-.CFD_IMG
-{ 
-	width:95%; 
-	margin-left:auto; 
-	
-} 
-.CFD_IMG img
-{
-	border:1px solid red; 
-	width:30%;    
-} 
 #projets_fluides, #projets_solides, #projets_ifs
 {
 	margin:3%; 
