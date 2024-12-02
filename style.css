@@ -220,10 +220,10 @@ nav li:hover .sous_menu
 .menu-burger
 {
      display: block;
-     margin:7% 0% 0% 10%;
+     margin:7% 0% 0% 10%; 
+     font-size:4em;
      color:teal;
-} 
-	
+}	
 nav
 {
      width:100%;
