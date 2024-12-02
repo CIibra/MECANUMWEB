@@ -202,7 +202,7 @@ nav li:hover .sous_menu
     cursor: pointer; 
     display:none;
 } 
-@media (max-width: 768 px) {
+@media (max-width: 768px) {
 .menu {
         display: none;
         flex-direction: column;
@@ -226,7 +226,7 @@ nav li:hover .sous_menu
 	
 nav
 {
-     width:30%;
+     width:100%;
      margin-left:0;
 }
 nav > ul
