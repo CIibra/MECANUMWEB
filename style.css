@@ -36,9 +36,13 @@ nav
 	display:flex;  
 }
 .logb
-{ 
-	/* margin:auto; */
-	display:none;  
+{  
+    display:none;   
+    margin: 0 auto;
+    justify-content: center;  
+    align-items: center;    
+}
+
 }
 .log div,.logb div
 {
@@ -224,7 +228,7 @@ nav li:hover .sous_menu
 }	
 nav
 {
-     width:100%;
+     width:30%;
      margin-left:0;
 }
 nav > ul
