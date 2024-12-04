@@ -207,8 +207,7 @@ nav li:hover .sous_menu
         flex-direction: column;
         background-color: #fff;
         width: 100%;
-        position: absolute; 
-	top:78px;
+        position: absolute;  
 	background-color: #f4f4f4; 
     }
 .menu.show 
