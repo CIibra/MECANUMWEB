@@ -30,14 +30,14 @@ nav
 .log, .logb
 {
 	margin:auto;
-	margin-left: 6%;
+	margin-left: 10%;
 	margin-bottom: 2%;
 	padding:0%; 
 	display:flex;  
 }
 .logb
 { 
-	margin:auto; 
+	/* margin:auto; */
 	display:none;  
 }
 .log div,.logb div
@@ -66,7 +66,7 @@ nav
 .log_a
 {
 	font-family:Calibri; 
-	font-size: 3em;   
+	font-size: 2.5em;   
   	color: teal;  
 	transform: scaleX(2) scaleY(2); 
    	display: inline-block; 
@@ -74,7 +74,7 @@ nav
  .log_b
 {
 	font-family: Courier New;
-	font-size:5em;  
+	font-size:4em;  
     	background: linear-gradient(to right, rgba(210, 105, 30), teal); 
     	-webkit-background-clip: text; 
     	color: transparent; 
@@ -82,11 +82,10 @@ nav
 	transform: scaleX(2) scaleY(2); 
     	display: inline-block;  
 }
-
 .log_c
 {
 	font-family: Calibri;
-	font-size:3em;
+	font-size:2.5em;
 	color: rgba(210, 105, 30, 2);
 	transform: scaleX(2) scaleY(2); 
 	display: inline-block;
@@ -191,7 +190,7 @@ nav li:hover .sous_menu
 .menu-burger {
     display: none;
     cursor: pointer;
-    font-size: 2 em; 
+    font-size: 1.8em; 
     padding: 3 %; 
 }
 .close {
@@ -209,7 +208,7 @@ nav li:hover .sous_menu
         background-color: #fff;
         width: 100%;
         position: absolute; 
-	top:49px;
+	top:78px;
 	background-color: #f4f4f4; 
     }
 .menu.show 
@@ -220,7 +219,7 @@ nav li:hover .sous_menu
 .menu-burger
 {
      display: block;
-     margin:7% 0% 0% 10%; 
+     margin:20% 0% 0% 10%; 
      font-size:4em;
      color:teal;
 }	
