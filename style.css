@@ -194,7 +194,7 @@ nav li:hover .sous_menu
     display: none;
     cursor: pointer;
     font-size: 1.6em; 
-    padding: 3 %; 
+    padding: 2%; 
 }
 .close {
     position: absolute;
