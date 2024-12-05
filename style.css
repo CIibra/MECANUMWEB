@@ -32,16 +32,14 @@ nav
 {
 	margin:auto;
 	margin-left: 5%;
-	margin-bottom: 2%;
+	margin-bottom: 1%;
 	padding:0%; 
 	display:flex;  
 }
 .logb
 {  
     display:none;    
-    margin-left:7%;
-    margin-bottom:0%;
-    border:1px solid black;
+    margin-left:7%; 
 }
 
 }
