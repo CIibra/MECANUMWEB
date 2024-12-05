@@ -317,6 +317,26 @@ nav li:hover .sous_menu
 {
       display: flex;
 }
+ .logb div p
+{   
+	letter-spacing: 10px; 
+} 
+.log_a
+{  
+	font-size: 2.5em;    
+	transform: scaleX(2) scaleY(2);  
+}
+ .log_b
+{
+	font-family: Courier New;
+	font-size:4em;   
+	transform: scaleX(2) scaleY(2);  
+}
+.log_c
+{ 
+	font-size:2.5em; 
+	transform: scaleX(2) scaleY(2);  
+} 
 .liens_utiles
 {
      display:block;  
@@ -324,6 +344,7 @@ nav li:hover .sous_menu
 .menu-burger
 { 
      font-size:1.5em; 
+     margin:30% 0% 0% 10%; 
 }  	
 .vision h1
 {      
@@ -388,6 +409,7 @@ nav li:hover .sous_menu
 .logb
 {
      display:flex;
+	
 } 	
 }
 
