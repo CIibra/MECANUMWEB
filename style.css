@@ -222,7 +222,7 @@ nav li:hover .sous_menu
 {
      display: block;
      margin:20% 0% 0% 10%; 
-     font-size:4em;
+     font-size:3em;
      color:teal;
 }	
 nav
@@ -305,7 +305,83 @@ nav li:hover .sous_menu
 }
 
 @media (max-width: 480px) {
-    footer {
+.menu {
+        display: none;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        position: absolute;  
+	background-color: #f4f4f4; 
+    }
+.menu.show 
+{
+      display: flex;
+}
+.menu-burger
+{ 
+     font-size:1.5em; 
+}  	
+.menu li 
+{
+     text-align:left;
+     padding: 3px;
+     width:30%; 
+     padding-left: 3%;
+}
+nav > ul > li > a
+{  
+   color: purple;
+   width:100%;
+   margin:auto;
+   padding:1%;
+   text-decoration: none;   
+   font-weight: bold;
+}
+.sous_menu
+{
+      display:none;    
+      width: 100%;
+      text-align: justify; 
+      text-decoration:none;
+}
+nav li:hover .sous_menu
+{
+     display: inline-block;  
+     position: absolute;  
+     top: 0%;  
+     width:68%;
+     margin:auto;
+     margin-left:32%;
+     height:170%; 
+     list-style-type:none;
+     padding-left:0;
+     padding-top:1%; 
+     background-color:rgba(210, 105, 30, .9); 
+     background-color: #f4f4f4; 
+     z-index: 100;  
+}
+		
+.sous_menu > li 
+{  
+    padding : 2% 0% 2% 2%;   
+    width:100%;  
+}
+	
+.sous_menu > li > a
+{
+    color: teal;
+    font-size: 1.1 em;
+    font-weight:bold;
+}
+.log
+{
+    display:none;
+}
+.logb
+{
+     display:flex;
+} 	
+footer {
         display: flex;
         flex-direction: column; /* Aligne les éléments verticalement */
         justify-content: center;
