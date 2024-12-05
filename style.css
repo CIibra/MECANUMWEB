@@ -317,6 +317,10 @@ nav li:hover .sous_menu
 {
       display: flex;
 }
+.liens_utiles
+{
+     display:block;  
+}
 .menu-burger
 { 
      font-size:1.5em; 
