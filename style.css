@@ -55,44 +55,8 @@ nav
 .log div a, .logb div a
 { 
 	text-decoration:none; 
-	display:flex;
+ 	display: inline-block; 
 }
-.log div p, .logb div p
-{  
-	margin:auto; 
-	font-weight:bold;
-	padding-top:0%;
-	padding-bottom:0%;
-	justify-content:center;
-	letter-spacing: 10px; 
-} 
-.log_a
-{
-	font-family:Calibri; 
-	font-size: 2.5em;   
-  	color: teal;  
-	transform: scaleX(2) scaleY(2); 
-   	display: inline-block; 
-}
- .log_b
-{
-	font-family: Courier New;
-	font-size:4em;  
-    	background: linear-gradient(to right, rgba(210, 105, 30), teal); 
-    	-webkit-background-clip: text; 
-    	color: transparent; 
-	padding-left: 1%;
-	transform: scaleX(2) scaleY(2); 
-    	display: inline-block;  
-}
-.log_c
-{
-	font-family: Calibri;
-	font-size:2.5em;
-	color: rgba(210, 105, 30, 2);
-	transform: scaleX(2) scaleY(2); 
-	display: inline-block;
-} 
 
 #logo_image
 {      
