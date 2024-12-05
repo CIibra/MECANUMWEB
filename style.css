@@ -33,7 +33,7 @@ nav
 	margin:auto;
 	margin-left: 5%;
 	margin-bottom: 1%;
-	margin-top: 1%;
+	margin-top: 1.5%;
 	padding:0%; 
 	display:flex;  
 }
@@ -287,26 +287,6 @@ nav li:hover .sous_menu
 .menu.show 
 {
       display: flex;
-}
- .logb div p
-{   
-	letter-spacing: 10px; 
-} 
-.log_a
-{  
-	font-size: 2.5em;    
-	transform: scaleX(2) scaleY(2);  
-}
- .log_b
-{
-	font-family: Courier New;
-	font-size:4em;   
-	transform: scaleX(2) scaleY(2);  
-}
-.log_c
-{ 
-	font-size:2.5em; 
-	transform: scaleX(2) scaleY(2);  
 } 
 .liens_utiles
 {
@@ -379,8 +359,7 @@ nav li:hover .sous_menu
 }
 .logb
 {
-     display:flex;
-	
+     display:flex;	
 } 	
 }
 
