@@ -325,6 +325,10 @@ nav li:hover .sous_menu
 { 
      font-size:1.5em; 
 }  	
+.vision h1
+{      
+    font-size: 16px; 
+}
 .menu li 
 {
      text-align:left;
@@ -385,19 +389,6 @@ nav li:hover .sous_menu
 {
      display:flex;
 } 	
-footer {
-        display: flex;
-        flex-direction: column; /* Aligne les éléments verticalement */
-        justify-content: center;
-        align-items: center;
-        padding: 10px; /* Ajustez selon le contenu */
-        font-size: 14px; /* Réduisez la taille du texte si nécessaire */
-    }
-
-    footer div, footer p {
-        width: 100%; /* Forcer chaque bloc à rester dans la largeur */
-        text-align: center; /* Centrer le texte */
-    }
 }
 
  
@@ -472,7 +463,7 @@ footer {
     text-align: center; 
     font-size:1.2em;
     overflow: hidden;
-    font-family:Consolas;
+    font-family: Courier New;
 }
 .vision h1
 { 
@@ -491,7 +482,7 @@ footer {
 	width:70%;
 	margin: auto; 
 	margin-bottom: 1%; 
-	font-family: Consolas;
+	font-family: Courier New;
 }
 
 .principal p
