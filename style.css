@@ -175,6 +175,7 @@ nav li:hover .sous_menu
     cursor: pointer; 
     display:none;
 } 
+
 @media (max-width: 768px) {
 .menu {
         display: none;
@@ -192,7 +193,6 @@ nav li:hover .sous_menu
 {
       display: flex;
 }
-
 .menu-burger
 {
      display: block;
@@ -270,8 +270,9 @@ nav li:hover .sous_menu
 }
 .logb
 {
-     display:flex;
-     margin-top: 30%;
+     display:flex; 
+     justify-content: center;  
+     align-items: center;  
 }
 .close
 {
@@ -364,7 +365,9 @@ nav li:hover .sous_menu
 }
 .logb
 {
-     display:flex;	
+     display:flex;
+     justify-content: center; 
+    align-items: center;  
 } 	
 }
 
