@@ -267,6 +267,7 @@ nav li:hover .sous_menu
 .logb
 {
      display:flex;
+     margin-top: 30%;
 }
 .close
 {
