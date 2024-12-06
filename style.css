@@ -177,6 +177,7 @@ nav li:hover .sous_menu
 } 
 
 @media (max-width: 768px) {
+font-size:14px;
 .menu {
         display: none;
         flex-direction: column;
@@ -347,6 +348,13 @@ nav li:hover .sous_menu
      background-color: #f4f4f4; 
      z-index: 100;  
 }
+.logb div img
+{
+     width:70%;
+     margin:auto;
+     object-fit:cover;
+}
+
 		
 .sous_menu > li 
 {  
@@ -371,7 +379,6 @@ nav li:hover .sous_menu
      align-items: center;  
 } 	
 }
-
  
 .vision
 {   
