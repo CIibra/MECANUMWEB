@@ -367,7 +367,8 @@ nav li:hover .sous_menu
 {
      display:flex;
      justify-content: center; 
-    align-items: center;  
+     align-items: center; 
+     width: 80%;
 } 	
 }
 
