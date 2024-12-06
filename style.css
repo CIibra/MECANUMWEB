@@ -176,8 +176,7 @@ nav li:hover .sous_menu
     display:none;
 } 
 
-@media (max-width: 768px) {
-font-size:14px;
+@media (max-width: 768px) { 
 .menu {
         display: none;
         flex-direction: column;
@@ -278,8 +277,7 @@ nav li:hover .sous_menu
 }
 }
 
-@media (max-width: 480px) {
-font-size:14px;
+@media (max-width: 480px) { 
 .menu {
         display: none;
         flex-direction: column;
@@ -350,14 +348,11 @@ nav li:hover .sous_menu
      margin:auto;
      object-fit:cover;
 }
-
-		
 .sous_menu > li 
 {  
     padding : 2% 0% 2% 2%;   
     width:100%;  
-}
-	
+}	
 .sous_menu > li > a
 {
     color: teal;
