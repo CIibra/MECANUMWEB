@@ -282,6 +282,7 @@ nav li:hover .sous_menu
 }
 
 @media (max-width: 480px) {
+font-size:14px;
 .menu {
         display: none;
         flex-direction: column;
