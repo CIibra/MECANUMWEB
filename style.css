@@ -184,6 +184,10 @@ nav li:hover .sous_menu
         position: absolute;  
 	background-color: #f4f4f4; 
     }
+.liens_utiles
+{
+       display:block;	
+}
 .menu.show 
 {
       display: flex;
