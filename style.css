@@ -1,4 +1,4 @@
-body, html
+<body, html
 {
 	font-family: Courier New,  Trebuchet MS, Arial, sans-serif;
 	font-size: 1em; 
@@ -561,6 +561,8 @@ footer
 	display:flex;
 	width:90%;
 	margin: auto;
+	justify-content:center; 
+	align-items: center;
 	gap:5px;
 }
 
