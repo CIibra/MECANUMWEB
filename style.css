@@ -558,8 +558,9 @@ footer
 }
 .icons
 {	
-	display:flex;   
-	position:left;
+	display:flex;
+	width:90%;
+	margin: auto;
 	gap:5px;
 }
 
