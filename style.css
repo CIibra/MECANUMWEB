@@ -558,9 +558,8 @@ footer
 }
 .icons
 {	
-	display:flex;  
-	justify-content:center;
-	margin-left:0%;
+	display:flex;   
+	position:left;
 	gap:5px;
 }
 
