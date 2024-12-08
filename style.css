@@ -1,7 +1,7 @@
 body, html
 {
 	font-family: Courier New,  Trebuchet MS, Arial, sans-serif;
-	font-size: 1 em; 
+	font-size: 1em; 
 	line-height : 1.5;
 	width:100%;
 	padding:0;
@@ -290,10 +290,6 @@ nav li:hover .sous_menu
 {
       display: flex;
 } 
-.liens_utiles
-{
-     display:block;  
-}
 .menu-burger
 { 
      font-size:1.5em; 
@@ -369,6 +365,10 @@ nav li:hover .sous_menu
      justify-content: center; 
      align-items: center;  
 } 	
+.liens_utiles
+{
+     display: block;  
+}
 }
  
 .vision
