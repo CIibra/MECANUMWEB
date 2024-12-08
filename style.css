@@ -574,7 +574,8 @@ footer
 }
 .social-media
 {
-	width:40%;
+    width:40%;
+    align-items: center;
 }
 .social-media h2
 { 
