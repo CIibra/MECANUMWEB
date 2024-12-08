@@ -367,16 +367,7 @@ nav li:hover .sous_menu
         margin: 0 auto; /* Centrer si nécessaire */
         text-align: center; /* Centre les éléments enfants */
     }
-
-    .liens_utiles ul {
-        padding: 0;
-        margin: 10px 0; /* Ajoute de l'espacement entre les listes */
-    }
-
-    .liens_utiles ul li {
-        display: block; /* Force chaque lien à occuper toute la ligne */
-        margin: 5px 0; /* Espacement entre les items */
-    }
+ 
 }
 
 .vision
