@@ -560,6 +560,7 @@ footer
 {	
 	display:flex;  
 	justify-content:center;
+	margin-left:0%;
 	gap:5px;
 }
 
