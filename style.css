@@ -547,14 +547,10 @@ footer
 }
 .footer-section h2 
 { 
-	width:100%;
+	width:50%;
 	text-align:center;
 	color:orange; 
 	margin-bottom:0%;
-}
-.liens_titre
-{
-	margin-left:8%;
 }
 .footer-section ul 
 { 
