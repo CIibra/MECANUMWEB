@@ -364,8 +364,7 @@ nav li:hover .sous_menu
 .liens_utiles {
         display: block;
         width: 100%; /* Assure que l'élément occupe toute la largeur */
-        margin: 0 auto; /* Centrer si nécessaire */
-        text-align: center; /* Centre les éléments enfants */
+        margin: 0 auto; /* Centrer si nécessaire */ 
     }
  
 }
