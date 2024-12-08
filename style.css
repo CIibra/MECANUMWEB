@@ -515,14 +515,14 @@ span
 
 .logo-item > div 
 {
-	width: 100%;
-	margin:2%;  
+   width: 100%;
+   margin:2%;  
 }
  
 .logo-item div img
 {
-	width: 100%; 
-	object-fit: cover;  
+   width: 100%; 
+   object-fit: cover;  
 }
 
 footer 
@@ -542,11 +542,7 @@ footer
 {   
     padding: 0;   
     margin:0;
-    width:100%; 
-	
-    display: flex;
-    flex-direction: column;
-    align-items: center; /*
+    width:100%;  
 }
 .footer-section h2 
 { 
