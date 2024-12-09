@@ -361,7 +361,7 @@ nav li:hover .sous_menu
      justify-content: center; 
      align-items: center;  
 } 	
-.liens_utiles {
+.liens_utiles ul {
         display: block;
         width: 100%; /* Assure que l'élément occupe toute la largeur */
         margin: 0 auto; /* Centrer si nécessaire */ 
