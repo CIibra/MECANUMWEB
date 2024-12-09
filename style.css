@@ -559,7 +559,7 @@ footer
 	display:flex;
 	width:90%;
 	margin: auto;
-	justify-content:cente 
+	justify-content:center;
 	align-items: center;
 	gap:5px;
 }
