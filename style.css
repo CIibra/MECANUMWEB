@@ -559,7 +559,7 @@ footer
 	display:flex;
 	width:90%;
 	margin: auto;
-	justify-content:center; 
+	justify-content:cente 
 	align-items: center;
 	gap:5px;
 }
@@ -568,6 +568,9 @@ footer
 {
 	width: 30px; 
 	height: 30px;  
+}
+.footer-section ul li{ 
+   list-style-type: none;
 }
 .footer-section ul li a {
     color: white;
