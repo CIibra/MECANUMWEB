@@ -545,7 +545,8 @@ footer
 }
 .footer-section h2 
 { 
-	width:50%;
+	width:100%;
+	margin:auto;
 	text-align:center;
 	color:orange; 
 	margin-bottom:0%;
